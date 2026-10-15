@@ -9,7 +9,7 @@ const FPassword = () => {
     <ScrollView style={{ flex: 1}}>
         {/* gradient background */}
             <LinearGradient
-             colors={['#6D9773', '#0C3B2E']}
+             colors={['#2e163a', '#3e1041', '#6e4292']}
                 style={{ height: height, justifyContent: "center", alignItems: "center" }}
               >
                  {/* Soft Background Circles */}
@@ -17,7 +17,7 @@ const FPassword = () => {
                   position: "absolute",
                   width: 200,
                   height: 200,
-                  backgroundColor: "#34D399",
+                  backgroundColor: "#6e4292",
                   borderRadius: 100,
                   top: -50,
                   left: -50,
@@ -27,7 +27,7 @@ const FPassword = () => {
                   position: "absolute",
                   width: 250,
                   height: 250,
-                  backgroundColor: "#047857",
+                  backgroundColor: "#6e4292",
                   borderRadius: 125,
                   bottom: -80,
                   right: -80,
@@ -57,7 +57,7 @@ const FPassword = () => {
                 <TouchableOpacity
                             onPress={() => navigation.navigate('Home')}
                             style={{
-                              backgroundColor: "#0C3B2E",
+                              backgroundColor: "#3e1041",
                               marginTop: 20,
                               padding: 15,
                               borderRadius: 15,
